@@ -1,12 +1,9 @@
-p:first-of-type {
+.parent {
   color: #233b6c;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: left;
+  display: flex;
 }
-
-p + span {
-  color: #233b6c;
+.child {
+  padding: 10px;
   font-weight: bold;
   font-size: 15px;
   text-align: right;
@@ -17,13 +14,13 @@ body {
   background-size: 300px 100px;
 }
 
-p:last-child {
+p:last-of-type {
   color: black;
   font-weight: lighter;
   font-size: 50px;
 }
 
-.parent {
+.item {
   width: 800px;
   height: 150px;
   background: #233b6c;
