@@ -14,15 +14,7 @@
   text-align: right;
 }
 
-
-.parent1 {
-  color: black;
-  font-weight: lighter;
-  font-size: 50px;
-  margin: 40px;
-}
-
-.childchild5 {
+.child4 {
   background-image: url("../img/firstview.jpeg");
   background-size: 600px 400px;
   background-repeat: no-repeat;
@@ -31,7 +23,13 @@
   z-index: 30;
 }
 
-.childchild6 {
+.child5 {
+  text-align: left;
+
+  font-size: 60px;
+}
+
+.child6 {
   width: 800px;
   height: 150px;
   background: #233b6c;
