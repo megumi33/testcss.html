@@ -1,6 +1,7 @@
 .parent {
   color: #233b6c;
   display: flex;
+  margin: 40px;
 }
 .child {
   padding: 10px;
@@ -11,7 +12,7 @@
 
 .item1 {
   background-image: url("../img/firstview.jpeg");
-  background-size: 600px 800px;
+  background-size: 600px 400px;
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 200px;
@@ -22,6 +23,7 @@ p:last-of-type {
   color: black;
   font-weight: lighter;
   font-size: 50px;
+  margin: 40px;
 }
 
 .item {
