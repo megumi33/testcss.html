@@ -16,6 +16,8 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 200px;
+  z-index: 30;
+  position: relative;
 }
 
 p:last-of-type {
@@ -29,4 +31,6 @@ p:last-of-type {
   height: 150px;
   background: #233b6c;
   margin: 40px;
+  z-index: 20;
+  position: relative;
 }
