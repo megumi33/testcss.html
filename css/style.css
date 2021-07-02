@@ -33,6 +33,7 @@
 .child5 {
   text-align: left;
   font-size: 60px;
+  margin: 40px;
 }
 
 .child6 {
@@ -41,4 +42,7 @@
   background: #233b6c;
   margin: 40px;
   z-index: 1;
+  position: absolute;
+  top: 60%;
+  right: 30%;
 }
