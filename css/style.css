@@ -14,22 +14,24 @@
   text-align: right;
 }
 
+.parent1 {
+  position: relative;
+}
 
-.parent{
-  position:relative
-
-.chil4 {  position top: 10px ;
+.child4 {
   background-image: url("../img/firstview.jpeg");
   background-size: 600px 400px;
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 200px;
   z-index: 30;
+  position: absolute;
+  top: 20%;
+  left: 30%;
 }
 
 .child5 {
   text-align: left;
-
   font-size: 60px;
 }
 
